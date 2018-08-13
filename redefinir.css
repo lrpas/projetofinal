@@ -1,0 +1,56 @@
+.geral{
+    width: 100vw;
+    height: 100vh;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    border: 1px solid black;
+    text-align: center;
+    width: 400px;
+    background-color: #1b2836;
+    box-shadow:  1px 1px 1px 1px;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.textform{
+    text-align: center;
+    border-radius: 10px;
+    height: 25px;
+    margin-top: 5%;
+    width: 250px;
+}
+
+.btn{
+    border-radius: 10px ;
+    text-align: center;
+    margin-top: 3%;
+    width: 45%;
+    background-color: #1da1f2;
+    border: 1px #1da1f2;
+    color: azure;   
+    cursor: pointer;
+  }
+  
+  .btn:hover{
+     background-color:aliceblue;
+     color:#141d26;
+  }
+
+  body{
+    background-color: #141d26;
+
+  }
+
+  a{
+    color: azure;
+    text-decoration:none;
+}
+
+a:hover{
+    color: #1da1f2;
+}
